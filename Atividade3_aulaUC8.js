@@ -16,7 +16,7 @@ let peso = 350
 
 
 let NomePeca = "Caixa de cambio"
-    if (nomePeca.length>2){
+    if (NomePeca.length>2){
         console.log("O tamanho do nome da peça está adequado")
 }   else {
         console.log("O nome deve ter mais que 3 caracteres, por favor digite um nome adequado")
