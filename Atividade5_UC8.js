@@ -13,3 +13,8 @@ while (contador <= numeroDeAlunos) {
     contador++
 }
 
+
+let nomeDeAlunos = ["Aluno1", "Aluno2", "Aluno3", "Aluno4"]
+for (let nome of nomeDeAlunos){
+    console.log(`Esta pessoa se chama ${nome}`)
+}
